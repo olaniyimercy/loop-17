@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9f8fe;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.background {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35rem;
+    height: 43rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.background__headings {
+    font-size: 3rem;
+}
+
+.background__paragraph {
+    font-size: 1.5rem;
+}
+
+#file {
+    width: 2.5rem;
+}
+
+.background__file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 5rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    background-color: rgba(105, 167, 151, .9);
+    margin-top: 2rem;
+}
+
+.background__file:hover {
+    background-color: rgba(105, 167, 151, 255);
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff;
+    width: 45rem;
+    height: 43rem;
+    padding: 3rem;
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+.container__headings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:1.5rem ;
+}
+
+.container__years {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #e5e5e5;
+}
+
+.container__year:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.container__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.container__content-image {
+    width: 3rem;
+}
+
+.container__content-date {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#date {
+    font-size: 45px;
+    font-weight: lighter;
+    color: #a2a2a2;
+}
+
+
+.avatar {
+    border-radius: 5rem;
+}
